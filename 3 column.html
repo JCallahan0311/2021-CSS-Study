@@ -1,0 +1,74 @@
+<html>
+
+<head>
+	<title>3 column Template</title>
+	<style>
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			background-color: #333;
+			overflow: hidden;
+
+		}
+
+		li {
+			float: left;
+			border-right: 1px solid #bbb;
+		}
+
+		li a {
+			display: block;
+			color: yellow;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+
+		li a:hover:not(.active) {
+			background-color: #444;
+		}
+
+		.active {
+			background-color: #0044AA;
+		}
+
+		.column {
+			float: left;
+      width: 30%;
+		}
+
+		.row:after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="row">
+		<div id="header">
+			3 Column CSS Template
+		</div>
+	</div>
+	<div class="row">
+		<ul>
+			<li><a href="#" class="active">Home</a></li>
+			<li><a href="#">Products</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Socials</a></li>
+			<li style="float:right;"><a href="#">Contact</a></li>
+		</ul>
+	</div>
+	<div class="row">
+		<div class="column">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+			et dolore magna aliqua. At consectetur lorem donec massa sapien faucibus et. Tempus urna et pharetra pharetra massa massa.
+			Vitae nunc sed velit dignissim sodales ut. Ut morbi tincidunt augue interdum velit euismod.</div>
+		<br>
+       <div class="column" style="float:middle;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At consectetur lorem donec massa sapien faucibus et. Tempus urna et pharetra pharetra massa massa. Vitae nunc sed velit dignissim sodales ut. Ut morbi tincidunt augue interdum velit euismod.</div>
+       <br>
+       <div class="column" style="float:right;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At consectetur lorem donec massa sapien faucibus et. Tempus urna et pharetra pharetra massa massa. Vitae nunc sed velit dignissim sodales ut. Ut morbi tincidunt augue interdum velit euismod.</div>
+    </div>
+  </body>
+</html>
