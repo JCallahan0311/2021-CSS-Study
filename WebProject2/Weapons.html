@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Black Ops II Zombies</title>
+    <style>
+        .Title {
+            color: black;
+            font-size: 50px;
+        }
+        .MainText{
+          padding: 50px;
+          
+        }
+        .active {
+            background-color: #0c92ff;
+        }
+        .navbar{
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        .navbar a{
+            float: left;
+            font-size: 17px;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover, .dropdown:hover .dropButton{
+            background-color: #f87c1b;
+        }
+        .dropdown{
+            float:left;
+            overflow: hidden;
+        }
+        .dropdown .dropButton{
+            font-size: 17px;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+            margin:0;
+        }
+        .dropdownContent{
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdownContent a{
+            float:none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+        .dropdown:hover .dropdownContent{
+            display:block;
+        }
+        .dropdownContent a:hover{
+            background-color: #ddd;
+        }
+        .navbar a:hover, .dropdown2:hover .dropButton2{
+            background-color: #f87c1b;
+        }
+        .dropdown2{
+            float:left;
+            overflow: hidden;
+        }
+        .dropdown2 .dropButton2{
+            font-size: 17px;
+            border: none;
+            outline: none;
+            color: black;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+            margin:0;
+        }
+        .dropdownContent2{
+            display: none;
+            position: absolute;
+            top: 100%;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdownContent2 a{
+            float:none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+        .dropdown2:hover .dropdownContent2{
+            display:block;
+        }
+        .dropdownContent2 a:hover{
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+<div class="Title">Call of Duty Black Ops II Zombies</div>
+<div class="navbar">
+    <a href="Home.html" class="active">Home</a>
+    <div class="dropdown">
+        <button class="dropButton" onclick="window.location.href='Characters.html'">Characters
+        </button>
+        <div class="dropdownContent">
+            <a href="Characters.html">Samuel J. Stuhlinger</a>
+            <a href="Characters.html">Abigail "Misty" Briarton</a>
+            <a href="Characters.html">Marlton Johnson</a>
+            <a href="Characters.html">Russman</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <button class="dropButton" onclick="window.location.href='Weapons.html'">Weapons
+        </button>
+        <div class="dropdownContent">
+            <div class="dropdown2">
+                <button class="dropButton2" onclick="window.location.href='Weapons.html'">Melee
+                </button>
+                <div class="dropdownContent2">
+                    <a href="Weapons.html">Ballistic Knife</a>
+                    <a href="Weapons.html">Bowie Knife</a>
+                    <a href="Weapons.html">Galvaknuckles</a>
+                </div>
+            </div>
+            <div class="dropdown2">
+                <button class="dropButton2" onclick="window.location.href='Weapons.html'">Pistol
+                </button>
+                <div class="dropdownContent2">
+                    <a href="Weapons.html">B23R</a>
+                    <a href="Weapons.html">Executioner</a>
+                    <a href="Weapons.html">Five-Seven</a>
+                    <a href="Weapons.html">Kap-40</a>
+                    <a href="Weapons.html">M1911</a>
+                    <a href="Weapons.html">Mauser C96</a>
+                    <a href="Weapons.html">Python</a>
+                    <a href="Weapons.html">Ray Gun</a>
+                    <a href="Weapons.html">Remington New Model Army</a>
+                </div>
+            </div>
+            <div class="dropdown2">
+                <button class="dropButton2" onclick="window.location.href='Weapons.html'">Assault Rifle
+                </button>
+                <div class="dropdownContent2">
+                    <a href="Weapons.html">AK-47</a>
+                    <a href="Weapons.html">AK74u</a>
+                    <a href="Weapons.html">AN-94</a>
+                    <a href="Weapons.html">Chicom</a>
+                    <a href="Weapons.html">Colt M16A1</a>
+                    <a href="Weapons.html">Fal</a>
+                    <a href="Weapons.html">Galil</a>
+                    <a href="Weapons.html">M8A1</a>
+                    <a href="Weapons.html">M14</a>
+                    <a href="Weapons.html">M27</a>
+                    <a href="Weapons.html">M1927</a>
+                    <a href="Weapons.html">MTAR</a>
+                    <a href="Weapons.html">SMR</a>
+                    <a href="Weapons.html">SCAR-H</a>
+                    <a href="Weapons.html">Type 25</a>
+                </div>
+            </div>
+            <div class="dropdown2">
+                <button class="dropButton2" onclick="window.location.href='Weapons.html'">Submachine Gun
+                </button>
+                <div class="dropdownContent2">
+                    <a href="Weapons.html">MP5</a>
+                    <a href="Weapons.html">MP-40</a>
+                    <a href="Weapons.html">PDW-57</a>
+                    <a href="Weapons.html">S12</a>
+                    <a href="Weapons.html">STG-44</a>
+                    <a href="Weapons.html">Uzi</a>
+                </div>
+            </div>
+            <div class="dropdown2">
+                <button class="dropButton2" onclick="window.location.href='Weapons.html'">Light Machine Gun
+                </button>
+                <div class="dropdownContent2">
+                    <a href="Weapons.html">HAMR</a>
+                    <a href="Weapons.html">LSAT</a>
+                    <a href="Weapons.html">RPD</a>
+                </div>
+            </div>
+            <div class="dropdown2">
+                <button class="dropButton2" onclick="window.location.href='Weapons.html'">Sniper Rifle
+                </button>
+                <div class="dropdownContent2">
+                    <a href="Weapons.html">Barrett M82A1</a>
+                    <a href="Weapons.html">DSR 50</a>
+                    <a href="Weapons.html">SVU-AS</a>
+                </div>
+            </div>
+            <div class="dropdown2">
+                <button class="dropButton2" onclick="window.location.href='Weapons.html'">Shotgun
+                </button>
+                <div class="dropdownContent2">
+                    <a href="Weapons.html">KSG</a>
+                    <a href="Weapons.html">M1216</a>
+                    <a href="Weapons.html">Olympia</a>
+                    <a href="Weapons.html">R870 MCS</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="dropdown">
+        <button class="dropButton" onclick="window.location.href='Maps.html'">Maps
+        </button>
+        <div class="dropdownContent">
+            <div class="dropdown2">
+                <button class="dropButton2" onclick="window.location.href='Maps.html'">Tranzit
+                </button>
+                <div class="dropdownContent2">
+                    <a href="Maps.html">Bus Depot</a>
+                    <a href="Maps.html">Town</a>
+                    <a href="Maps.html">Farm</a>
+                    <a href="Maps.html">Diner</a>
+                </div>
+            </div>
+            <div class="dropdown2">
+                <button class="dropButton2" onclick="window.location.href='Maps.html'">Nuketown Zombies
+                </button>
+                <div class="dropdownContent2">
+                </div>
+            </div>
+            <div class="dropdown2">
+                <button class="dropButton2" onclick="window.location.href='Maps.html'">Die Rise
+                </button>
+                <div class="dropdownContent2">
+                </div>
+            </div>
+            <div class="dropdown2">
+                <button class="dropButton2" onclick="window.location.href='Maps.html'">Alcatraz Island
+                </button>
+                <div class="dropdownContent2">
+                    <a href="Maps.html">Mob of the Dead</a>
+                    <a href="Maps.html">Cell Block</a>
+                </div>
+            </div>
+            <div class="dropdown2">
+                <button class="dropButton2" onclick="window.location.href='Maps.html'">Resolution 1295
+                </button>
+                <div class="dropdownContent2">
+                    <a href="Maps.html">Buried</a>
+                    <a href="Maps.html">Borough</a>
+                </div>
+            </div>
+            <div class="dropdown2">
+                <button class="dropButton2" onclick="window.location.href='Maps.html'">Excavation Site 64
+                </button>
+                <div class="dropdownContent2">
+                    <a href="Maps.html">Origins</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="dropdown">
+        <button class="dropButton" onclick="window.location.href='Zombies.html'">Zombies
+        </button>
+        <div class="dropdownContent">
+            <a href="Zombies.html"></a>
+            <a href="Zombies.html"></a>
+            <a href="Zombies.html"></a>
+            <a href="Zombies.html"></a>
+            <a href="Zombies.html"></a>
+            <a href="Zombies.html"></a>
+        </div>
+    </div>
+</div>
+<div class="MainText">
+  This is a fanmade Black ops II Zombies WikiPage! Feel free to look around!
+</div>
+</body>
+</html>
